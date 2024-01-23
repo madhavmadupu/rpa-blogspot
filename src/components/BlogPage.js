@@ -33,7 +33,6 @@ const BlogPage = ({ heroImage, title, author, date, readTime, tag, content }) =>
         <div className='row my-5'>
           <div className='col-12'>
             <div className='blogDetails'>
-              {/* <img src="https://www.visvero.com/wp-content/uploads/2021/10/Left.png" width={70} className="author_avatar" alt="avatar" /> */}
               <span className="blogDetails-details fs-4 align-items-center">{author}</span>
               <span className="blogDetails-details fs-4 align-items-center">{date}</span>
               <span className="blogDetails-details fs-4 align-items-center">{readTime}</span>
